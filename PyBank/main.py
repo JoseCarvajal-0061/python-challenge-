@@ -52,6 +52,4 @@ print("Greatest Increase in Profits: "("$" + str(greatest_increase) + ")")
 print("Greatest Decrease in Profits: "("$" + str(greatest_decrease) + ")")
 print("----------------------------------------------------------")
 
-with open(os.path.join("PyBank", "Output", "financial_analysis.txt"), "w") as txtfile:
-    txtfile.write(output)
 
